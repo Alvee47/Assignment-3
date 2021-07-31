@@ -1,0 +1,67 @@
+:root{ 
+    --main-color: #E76F51;
+    --txt-white: #fff;
+}
+.head-section{
+    background: #264653;
+}
+.btn-login{
+    color: var(--txt-white);
+    background-color: var(--main-color);
+    border: none;
+    transition: .15s ease-in-out;
+}
+.btn-login:hover{
+    color: var(--txt-white);
+    background: red;
+}
+.bike-collection{
+    color: var(--main-color);
+}
+.featured-bike img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.featured-bike:hover img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.btn-outline-latest{
+    color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.btn-outline-latest:hover{
+    color: var(--txt-white);
+    background: var(--main-color);
+    border: none;
+}
+.ratings{
+    color: var(--main-color);
+}
+
+.honda-footer{
+    background: #0B0D17;
+}
+
+.footer-anchor a{
+    color: var(--txt-white);
+    text-decoration: none;
+    padding: 24px 0;
+}
+.app-img img{
+    width: 150px;
+    height: 50px;
+}
+
+.motorcycles{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url('../images/bg-wall.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
